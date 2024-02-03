@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <title>Prince Edward Island</title>
-    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
         <!-- Icons from https://ionic.io/ionicons -->
@@ -19,21 +22,38 @@
         </nav>
     </header>
     <main>
-        <h1>Prince Edward Island</h1>
 
+        <div class="page-header">
+            <h1>Prince Edward Island</h1>
+            <img src="images/aerial-peninsula.jpg" alt="A long wooden walkway over water">
+        </div>
+
+        <section class="article-cards"></section>
+        <article class="about-card">
         <h2>About</h2>
         <!-- https://en.wikipedia.org/wiki/Prince_Edward_Island# -->
         <p>Prince Edward Island (colloquially known as The Island) is one of the thirteen provinces and territories of Canada. While it is the smallest province in terms of land area and population, it is the most densely populated. The island has several nicknames: "Garden of the Gulf", "Birthplace of Confederation" and "Cradle of Confederation". Its capital and largest city is Charlottetown. It is one of the three Maritime provinces and one of the four Atlantic provinces.</p>
+        </article>
 
+        <article class="about-card">
         <h2>History</h2>
         <!-- https://en.wikipedia.org/wiki/Prince_Edward_Island# -->
         <p>Part of the traditional lands of the Miꞌkmaq, it was colonized by the French in 1604 as part of the colony of Acadia. The island was ceded to the British at the conclusion of the French and Indian War in 1763 and became part of the colony of Nova Scotia, and in 1769 the island became its own British colony. Prince Edward Island hosted the Charlottetown Conference in 1864 to discuss a union of the Maritime provinces; however, the conference became the first in a series of meetings which led to Canadian Confederation in 1867. Prince Edward Island initially balked at Confederation but, facing bankruptcy from the Land Question and construction of a railroad, joined as Canada's seventh province in 1873.</p>
+        </article>
+
+        <article class="about-card">
+            <h2>Culture</h2>
+            <p>The island's cultural traditions of art, music and creative writing are supported through the public education system. There is an annual arts festival, the Charlottetown Festival, hosted at the Confederation Centre of the Arts.
+            </p>
+        </article>
+        </section>
+
 
     </main>
     <footer>
         <footer>
             <!--Back to top link from https://www.computerhope.com/issues/ch001475.htm -->
-            <div class="footer-links">
+            <div class="footer-links" id="back-to-top">
             <a href="#top"><ion-icon name="arrow-up-circle-outline"></ion-icon></a>
             </div>
             <!-- social media icon links -->
@@ -43,8 +63,9 @@
             </div>
     
             <!-- Copyright -->
-                <p>&copy; Tyler Whitman 2024 <br>For Educational Purposes Only</p>
-            
+            <div>   
+                <p>&copy; Tyler Whitman 2024<br>For Educational Purposes Only</p>
+            </div>
     
         </footer>
     </footer>
