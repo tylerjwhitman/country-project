@@ -1,10 +1,104 @@
-/* Header
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Generic (CALLED IN ANOTHER FILE)
+	- Normalize
+	- Box sizing
+	- Media width
+# Base
+	- Typography
+	- Elements
+	- Links
+# Layouts
+# Components
+	- Header
+	- Main
+	- Footer
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Base
+--------------------------------------------------------------*/
+
+/* Typography
 --------------------------------------------- */
-header {
-    background-color: navy;
-    padding: 1rem;
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	
 }
 
+p {
+	
+}
+
+
+/* Elements
+--------------------------------------------- */
+ul {
+	
+}
+
+ol {
+	
+}
+
+dl {
+	
+}
+
+figure {
+	
+}
+
+table {
+	
+}
+
+/* Links
+--------------------------------------------- */
+a {
+	color: #ffffff;
+}
+
+a:visited {
+	
+}
+
+a:hover {
+	
+}
+
+a:focus {
+	
+}
+
+a:active {
+	
+}
+
+
+/*--------------------------------------------------------------
+# Layout
+--------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+
+/* Header
+--------------------------------------------- */
+
+
+/* Main
+--------------------------------------------- */
 .page-header {
     position: relative;
     text-align: center;
@@ -26,29 +120,32 @@ header {
     transform: translate(-50%, -50%);
     z-index: 1;
     width: 100%;
+	background-color: rgba(0, 0, 0, 0.3);
 }
 
 
-/* Main
---------------------------------------------- */
+.attraction-containers {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-bottom: 2rem;
+}
 
+.container {
+	padding: 1rem;
+	margin: 1rem;
+	border: 3px solid #000000;
+	border-radius: 1rem;
+	box-sizing: border-box;
+	max-width: 400px;
+	background-color: lightblue;
+}
+
+img {
+	height: auto;
+	max-width: 100%;
+	display: block;
+}
 
 /* Footer
 --------------------------------------------- */
-footer {
-    text-align: center;
-    color: #ffffff;
-    background-color: navy;
-    padding: .5rem;
-}
-
-
-.footer-links a {
-    font-size: 2rem;
-    margin: 1rem;
-    color: #ffffff;
-}
-
-#back-to-top a {
-    font-size: 3rem;
-}

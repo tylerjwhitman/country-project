@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prince Edward Island</title>
-    <link rel="stylesheet" href="styles/credits.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <title>Credits</title>
+        <link rel="stylesheet" href="styles/credits.css">
+        <link rel="stylesheet" href="styles/general.css">
+    </head>
 <body>
         <!-- Icons from https://ionic.io/ionicons -->
         <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
@@ -19,13 +23,18 @@
         </nav>
     </header>
     <main>
-        <h1>Credits</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum saepe voluptate dolorem, ducimus vel doloremque. Odio dolor error libero esse perspiciatis soluta a non facere at, asperiores ipsum exercitationem quam.</p>
+        <div class="page-header">
+            <h1>Credits</h1>
+            <img src="images/farm.jpg" alt="A combine harvester in a field">
+        </div>
+
+        
+
     </main>
     <footer>
         <footer>
             <!--Back to top link from https://www.computerhope.com/issues/ch001475.htm -->
-            <div class="footer-links">
+            <div class="footer-links" id="back-to-top">
             <a href="#top"><ion-icon name="arrow-up-circle-outline"></ion-icon></a>
             </div>
             <!-- social media icon links -->
@@ -35,11 +44,14 @@
             </div>
     
             <!-- Copyright -->
-            <p>&copy; Tyler Whitman 2024</p>
-            <p>For Educational Purposes Only</p>
-            
+            <div>   
+                <p>&copy; Tyler Whitman 2024<br>For Educational Purposes Only</p>
+            </div>
     
         </footer>
+    </footer>
+</body>
+</html>
     </footer>
 </body>
 </html>

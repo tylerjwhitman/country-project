@@ -8,6 +8,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <title>Prince Edward Island</title>
     <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/general.css">
 </head>
 <body>
         <!-- Icons from https://ionic.io/ionicons -->
@@ -21,32 +22,59 @@
             <a href="credits.html">Credits</a>
         </nav>
     </header>
-    <main>
+    <main class="site-main">
 
         <div class="page-header">
             <h1>Prince Edward Island</h1>
-            <img src="images/aerial-peninsula.jpg" alt="A long wooden walkway over water">
+            <img src="images/aerial-peninsula.jpg" alt="Ariel image of a peninsula">
         </div>
 
-        <section class="article-cards"></section>
-        <article class="about-card">
-        <h2>About</h2>
-        <!-- https://en.wikipedia.org/wiki/Prince_Edward_Island# -->
-        <p>Prince Edward Island (colloquially known as The Island) is one of the thirteen provinces and territories of Canada. While it is the smallest province in terms of land area and population, it is the most densely populated. The island has several nicknames: "Garden of the Gulf", "Birthplace of Confederation" and "Cradle of Confederation". Its capital and largest city is Charlottetown. It is one of the three Maritime provinces and one of the four Atlantic provinces.</p>
-        </article>
+        <div class="quote">
+            <blockquote>
+                “Because when you are imagining, you might as well imagine something worth while.” <br>
+                <cite>Lucy Maud Montgomery</cite>
+            </blockquote>
+        </div>
 
-        <article class="about-card">
-        <h2>History</h2>
-        <!-- https://en.wikipedia.org/wiki/Prince_Edward_Island# -->
-        <p>Part of the traditional lands of the Miꞌkmaq, it was colonized by the French in 1604 as part of the colony of Acadia. The island was ceded to the British at the conclusion of the French and Indian War in 1763 and became part of the colony of Nova Scotia, and in 1769 the island became its own British colony. Prince Edward Island hosted the Charlottetown Conference in 1864 to discuss a union of the Maritime provinces; however, the conference became the first in a series of meetings which led to Canadian Confederation in 1867. Prince Edward Island initially balked at Confederation but, facing bankruptcy from the Land Question and construction of a railroad, joined as Canada's seventh province in 1873.</p>
-        </article>
+        <section class="main-content">
 
-        <article class="about-card">
-            <h2>Culture</h2>
-            <p>The island's cultural traditions of art, music and creative writing are supported through the public education system. There is an annual arts festival, the Charlottetown Festival, hosted at the Confederation Centre of the Arts.
-            </p>
-        </article>
+        <div class="article-cards">
+            <article class="about-card">
+                <h2>About</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quaerat saepe, suscipit quidem repellat porro, cumque laudantium amet debitis itaque, quia ea asperiores? Voluptatem mollitia omnis fugit ab porro quae!</p>
+            </article>
+
+            <article class="about-card">
+                <h2>History</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quaerat saepe, suscipit quidem repellat porro, cumque laudantium amet debitis itaque, quia ea asperiores? Voluptatem mollitia omnis fugit ab porro quae!</p>
+            </article>
+
+            <article class="about-card">
+
+                <h2>Culture</h2>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quaerat saepe, suscipit quidem repellat porro, cumque laudantium amet debitis itaque, quia ea asperiores? Voluptatem mollitia omnis fugit ab porro quae!
+                </p>
+            </article>
+        </div>
+        
+
+            <form action="#" method="get">
+                <h2>Contact Us</h2>
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+
+                <label for="mail">Email:</label>
+                <input type="email" id="mail" name="email">
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+
+            </form>
+
         </section>
+
 
 
     </main>

@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prince Edward Island</title>
-    <link rel="stylesheet" href="styles/gallery.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <title>Gallery</title>
+        <link rel="stylesheet" href="styles/gallery.css">
+        <link rel="stylesheet" href="styles/general.css">
+    </head>
 <body>
         <!-- Icons from https://ionic.io/ionicons -->
         <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
@@ -19,28 +23,59 @@
         </nav>
     </header>
     <main>
-        <h1>Gallery</h1>
+        
+        <div class="page-header">
+            <h1>Gallery</h1>
+            <video src="media/dock-ocean.mp4" autoplay loop muted>Video of a wooden walkway over the ocean</video>
+        </div>
+        
 
+        
+        <section class="gallery">
+            <div class="gallery-image">
+                <img src="images/aerial-cliffs.jpg" alt="An aerial image overlooking cliffs, the ocean and a lighthouse">
+            </div>
+            
+            <div class="gallery-image">
+                <img src="images/confederation-bridge-aerial.jpg" alt="An image of a long bridge going over the ocean">
+            </div>
+
+            <div class="gallery-image">
+                <img src="images/summerside.jpg" alt="Image of a town overlooking the sunset">
+            </div>
+
+            <div class="gallery-image">
+                <img src="images/charlottetown-aerial.jpg" alt="Image of a city on the shore from above">
+            </div>
+
+            <div class="gallery-image">
+                <img src="images/father-son.jpg" alt="An image of a father and son standing in a field">
+            </div>
+
+            <div class="gallery-image">
+                <img src="images/confederation-bridge-underneath.jpg" alt="An image from below a bridge going across the ocean">
+            </div>
+            
+        </section>
 
     </main>
     <footer>
-        <footer>
-            <!--Back to top link from https://www.computerhope.com/issues/ch001475.htm -->
-            <div class="footer-links">
-            <a href="#top"><ion-icon name="arrow-up-circle-outline"></ion-icon></a>
-            </div>
-            <!-- social media icon links -->
-            <div class="footer-links">
-                <a href="https://www.linkedin.com"><ion-icon name="logo-linkedin"></ion-icon></a>
-                <a href="mailto:email@example.ca"><ion-icon name="mail-outline"></ion-icon></a>
-            </div>
-    
-            <!-- Copyright -->
-            <p>&copy; Tyler Whitman 2024</p>
-            <p>For Educational Purposes Only</p>
-            
-    
-        </footer>
+        <!--Back to top link from https://www.computerhope.com/issues/ch001475.htm -->
+        <div class="footer-links" id="back-to-top">
+        <a href="#top"><ion-icon name="arrow-up-circle-outline"></ion-icon></a>
+        </div>
+        <!-- social media icon links -->
+        <div class="footer-links">
+            <a href="https://www.linkedin.com"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="mailto:email@example.ca"><ion-icon name="mail-outline"></ion-icon></a>
+        </div>
+
+        <!-- Copyright -->
+        <div>   
+            <p>&copy; Tyler Whitman 2024<br>For Educational Purposes Only</p>
+        </div>
+
     </footer>
+</footer>
 </body>
 </html>
