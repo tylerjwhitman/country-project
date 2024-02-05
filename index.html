@@ -3,10 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicons -->
+    <link rel="icon" href="favicon.ico" sizes="any"> 
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png"/>
+    <link rel="manifest" href="site.webmanifest" />
+    <!-- Font/Icons -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <!-- Title -->
     <title>Prince Edward Island</title>
+    <!-- CSS -->
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/general.css">
 </head>
@@ -15,6 +23,9 @@
         <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <header>
+        <a href="index.html">
+            <img src="lighthouse-vector.png" alt="Website Logo">
+        </a>
         <nav>
             <a href="index.html">Home</a>
             <a href="attractions.html">Attractions</a>
@@ -71,6 +82,7 @@
                 <label for="message">Message:</label>
                 <textarea id="message" name="message"></textarea>
 
+                <input class="submit" type="submit" value="Submit">
             </form>
 
         </section>

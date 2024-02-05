@@ -52,25 +52,6 @@ p {
 
 /* Elements
 --------------------------------------------- */
-ul {
-	
-}
-
-ol {
-	
-}
-
-dl {
-	
-}
-
-figure {
-	
-}
-
-table {
-	
-}
 
 /* Links
 --------------------------------------------- */
@@ -79,38 +60,56 @@ a {
 }
 
 a:visited {
-	
+	color: #D1D9E0
 }
 
 a:hover {
-	
-}
-
-a:focus {
-	
-}
-
-a:active {
-	
+	background-color: black;
 }
 
 
 /* header */
 
 header {
-    background-color: navy;
+    background-color: #000080;
     padding: 1rem;
+	margin: auto;
 }
 
+header img {
+	max-width: 4rem;
+	height: auto;
+}
 
+nav {
+	font-size: 1.25rem;
+	margin-top: 1rem;
+}
+
+nav a {
+	text-decoration: none;
+	margin-left: 0.3rem;
+	margin-right: 0.3rem;
+
+}
+
+@media screen and (min-width: 1024px) {
+	header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 2rem;
+	}
+}
 
 /* Footer
 --------------------------------------------- */
 footer {
     text-align: center;
     color: #ffffff;
-    background-color: navy;
+    background-color: #000080;
     padding: .5rem;
+	max-width: 100%;
 }
 
 

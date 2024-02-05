@@ -3,10 +3,17 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- favicon -->
+        <link rel="icon" href="favicon.ico" sizes="any"> 
+        <link rel="icon" href="favicon.svg" type="image/svg+xml">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png"/>
+        <link rel="manifest" href="site.webmanifest" />
+        <!-- fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
         <title>Gallery</title>
+        <!-- css -->
         <link rel="stylesheet" href="styles/gallery.css">
         <link rel="stylesheet" href="styles/general.css">
     </head>
@@ -14,46 +21,56 @@
         <!-- Icons from https://ionic.io/ionicons -->
         <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    <header>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="attractions.html">Attractions</a>
-            <a href="gallery.html">Gallery</a>
-            <a href="credits.html">Credits</a>
-        </nav>
-    </header>
+        <header>
+            <a href="index.html">
+                <img src="lighthouse-vector.png" alt="Website Logo">
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="attractions.html">Attractions</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="credits.html">Credits</a>
+            </nav>
+        </header>
     <main>
         
         <div class="page-header">
             <h1>Gallery</h1>
-            <video src="media/dock-ocean.mp4" autoplay loop muted>Video of a wooden walkway over the ocean</video>
+            <!-- https://www.pexels.com/video/wood-sea-landscape-nature-3971351/ -->
+            <video src="media/dock-ocean.mp4" autoplay loop muted>A video of a wooden walkway over the ocean</video>
         </div>
         
 
         
         <section class="gallery">
             <div class="gallery-image">
+                <!-- Link now says page not found. I think photographer may have removed it or their page after I downloaded it -->
                 <img src="images/aerial-cliffs.jpg" alt="An aerial image overlooking cliffs, the ocean and a lighthouse">
             </div>
             
             <div class="gallery-image">
+                <!-- Same photographer as above (mkdrone) -->
                 <img src="images/confederation-bridge-aerial.jpg" alt="An image of a long bridge going over the ocean">
             </div>
 
             <div class="gallery-image">
+                <!-- https://www.pexels.com/photo/city-skyline-during-night-time-9617954/ -->
                 <img src="images/summerside.jpg" alt="Image of a town overlooking the sunset">
             </div>
 
             <div class="gallery-image">
+                <!-- mkdrone again -->
                 <img src="images/charlottetown-aerial.jpg" alt="Image of a city on the shore from above">
             </div>
 
             <div class="gallery-image">
+                <!-- https://unsplash.com/photos/man-carrying-toddler-standing-on-green-field-hill-vteE6bVU7ic -->
                 <img src="images/father-son.jpg" alt="An image of a father and son standing in a field">
             </div>
 
             <div class="gallery-image">
-                <img src="images/confederation-bridge-underneath.jpg" alt="An image from below a bridge going across the ocean">
+                <!-- https://unsplash.com/photos/body-of-water-under-blue-sky-during-daytime-qY3ifIeeQDs -->
+                <img src="images/confederation-bridge-underneath.jpg" alt="An image from directly below a bridge going across the ocean">
             </div>
             
         </section>
