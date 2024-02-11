@@ -22,89 +22,24 @@
 
 /* Typography
 --------------------------------------------- */
-body {
-	font-family: 'Lato', sans-serif;
-    font-size: 1rem;
-	font-weight: 400;
-	line-height: 1.5;
-	color: #282828;
-	background-color: lightblue;
-    text-align: center;
-    margin: 0;
-}
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	
-}
-
-p {
-	
-}
-
-
-/* Elements
---------------------------------------------- */
-ul {
-	
-}
-
-ol {
-	
-}
-
-dl {
-	
-}
-
-figure {
-	
-}
-
-/* Links
---------------------------------------------- */
+main{
 a {
-	
+    color: #282828;
 }
 
 a:visited {
-	
+    color: #282828;
 }
-
-a:hover {
-	
 }
-
-a:focus {
-	
-}
-
-a:active {
-	
-}
-
-
-/*--------------------------------------------------------------
-# Layout
---------------------------------------------------------------*/
-
-
 
 /*--------------------------------------------------------------
 # Components
 --------------------------------------------------------------*/
 
-/* Header
---------------------------------------------- */
-
-
-
 /* Main
 --------------------------------------------- */
+
 .page-header {
     position: relative;
     text-align: center;
@@ -132,19 +67,16 @@ a:active {
 
 table {
     max-width: 100%;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
     border-collapse: separate;
     border: 3px solid #000000;
     background-color: lightblue;
     margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 th, 
 td {
-    border: 2px solid #000000;
-    
+    border: 2px solid #000000;   
+    padding: .2rem;
 }
-
-/* Footer
---------------------------------------------- */

@@ -37,19 +37,6 @@ h1 {
 	font-size: 3rem;
 }
 
-h2,
-h3,
-h4,
-h5,
-h6 {
-	
-}
-
-p {
-	
-}
-
-
 /* Elements
 --------------------------------------------- */
 
@@ -64,7 +51,8 @@ a:visited {
 }
 
 a:hover {
-	background-color: black;
+	background-color: #ffffff;
+	color: #000080;
 }
 
 
@@ -82,15 +70,23 @@ header img {
 }
 
 nav {
-	font-size: 1.25rem;
 	margin-top: 1rem;
+	margin-bottom: .5rem;
+	font-size: 1rem;
+	position: relative;
+	white-space: nowrap;
+
 }
 
 nav a {
 	text-decoration: none;
-	margin-left: 0.3rem;
-	margin-right: 0.3rem;
+	padding: 0.5rem;
+	border-right: 1px solid #ffffff;
 
+}
+
+nav a:last-child {
+	border-right: none;
 }
 
 @media screen and (min-width: 1024px) {
@@ -99,6 +95,12 @@ nav a {
 		justify-content: space-between;
 		align-items: center;
 		padding: 2rem;
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	header nav {
+		font-size: 1.5rem;
 	}
 }
 

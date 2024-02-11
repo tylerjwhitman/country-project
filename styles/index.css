@@ -95,7 +95,6 @@ blockquote {
     background-color: lightblue;
 }
 
-
 form {
     margin: auto;
     margin-bottom: 2rem;
@@ -120,5 +119,24 @@ textarea {
 
 .submit {
     margin: 1rem;
+}
+
+@media (min-width: 1024px) {
+    .article-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #one {
+        grid-column: 1 / span 2;
+    }
+
+    #two {
+        grid-column: 1;
+    }
+
+    #three {
+        grid-column: 2;
+    }
 }
 

@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Favicons -->
-    <link rel="icon" href="favicon.ico" sizes="any"> 
-    <link rel="icon" href="favicon.svg" type="image/svg+xml">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png"/>
-    <link rel="manifest" href="site.webmanifest" />
+    <link rel="icon" href="favicon/favicon.ico" sizes="any"> 
+    <link rel="icon" href="favicon/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="favicon/apple-touch-icon.png"/>
+    <link rel="manifest" href="favicon/site.webmanifest" />
     <!-- Font/Icons -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,7 +25,7 @@
         <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <header>
         <a href="index.html">
-            <img src="lighthouse-vector.png" alt="Website Logo">
+            <img src="favicon/lighthouse-vector.png" alt="Website Logo">
         </a>
         <nav>
             <a href="index.html">Home</a>
@@ -51,21 +51,23 @@
         <section class="main-content">
 
         <div class="article-cards">
-            <article class="about-card">
+            <article class="about-card" id="one">
                 <h2>About</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quaerat saepe, suscipit quidem repellat porro, cumque laudantium amet debitis itaque, quia ea asperiores? Voluptatem mollitia omnis fugit ab porro quae!</p>
+                <!-- https://en.wikipedia.org/wiki/Prince_Edward_Island -->
+                <p>Prince Edward Island (colloquially known as The Island) is one of the thirteen provinces and territories of Canada. While it is the smallest province in terms of land area and population, it is the most densely populated. The island has several nicknames: "Garden of the Gulf", "Birthplace of Confederation" and "Cradle of Confederation". Its capital and largest city is Charlottetown. It is one of the three Maritime provinces and one of the four Atlantic provinces.</p>
             </article>
 
-            <article class="about-card">
+            <article class="about-card" id="two">
                 <h2>History</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quaerat saepe, suscipit quidem repellat porro, cumque laudantium amet debitis itaque, quia ea asperiores? Voluptatem mollitia omnis fugit ab porro quae!</p>
+                <!-- https://en.wikipedia.org/wiki/Prince_Edward_Island -->
+                <p>The history of Prince Edward Island covers several historical periods, from the pre-Columbian era to the present day. Prior to the arrival of Europeans, the island formed a part of Mi'kma'ki, the lands of the Mi'kmaq people. The island was first explored by Europeans in the 16th century. The French later laid claim over the entire Maritimes region, including Prince Edward Island in 1604. However, the French did not attempt to settle the island until 1720, with the establishment of the colony of Île Saint-Jean. After peninsular Acadia (present-day Nova Scotia) was captured by the British in 1710, an influx of Acadian migrants moved to areas still under French control, including Île Saint-Jean.</p>
             </article>
 
-            <article class="about-card">
+            <article class="about-card" id="three">
 
-                <h2>Culture</h2>
-
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quaerat saepe, suscipit quidem repellat porro, cumque laudantium amet debitis itaque, quia ea asperiores? Voluptatem mollitia omnis fugit ab porro quae!
+                <h2>Arts</h2>
+                <!-- https://en.wikipedia.org/wiki/Prince_Edward_Island -->
+                <p>The island's cultural traditions of art, music and creative writing are supported through the public education system. There is an annual arts festival, the Charlottetown Festival, hosted at the Confederation Centre of the Arts. Lucy Maud Montgomery, who was born in Clifton (now New London) in 1874, drew inspiration from the land during the late Victorian Era for the setting of her classic novel Anne of Green Gables (1908). The musical play Anne of Green Gables has run every year at the Charlottetown festival for more than four decades. The sequel, Anne & Gilbert, premiered in the Playhouse in Victoria in 2005. The actual location of Green Gables, the house featured in Montgomery's Anne books, is in Cavendish, on the north shore of PEI.
                 </p>
             </article>
         </div>
@@ -85,14 +87,11 @@
 
                 <input class="submit" type="submit" value="Submit">
             </form>
-
         </section>
 
-
-
     </main>
+
     <footer>
-        <footer>
             <!--Back to top link from https://www.computerhope.com/issues/ch001475.htm -->
             <div class="footer-links" id="back-to-top">
             <a href="#top"><ion-icon name="arrow-up-circle-outline"></ion-icon></a>
@@ -107,8 +106,7 @@
             <div>   
                 <p>&copy; Tyler Whitman 2024<br>For Educational Purposes Only</p>
             </div>
-    
-        </footer>
     </footer>
+
 </body>
 </html>
